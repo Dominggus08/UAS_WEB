@@ -2,11 +2,11 @@
     <v-main class="body">
         <div>
             <v-app-bar app fixed class="blue lighten-4">
-                <v-toolbar-title >Hotel Apalah</v-toolbar-title>
+                <v-btn to="/">Hotel Apalah</v-btn>
                 <v-spacer></v-spacer>
 
-                <v-btn class="mark" to="/register" plain @click="goBuyTickets()">REGISTER</v-btn>
-                <v-btn class="mark" to="/userlogin" plain @click="goProfileUser()">LOGIN</v-btn>
+                <v-btn class="mark" to="/register">REGISTER</v-btn>
+                <v-btn class="mark" to="/userlogin">LOGIN</v-btn>
 
             </v-app-bar>
             <div class="fullheight pa-5">
