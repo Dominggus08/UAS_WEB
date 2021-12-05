@@ -34,6 +34,7 @@
                             label="Tipe Kamar"
                             required>
                         </v-select>
+                        
                         <v-text-field v-model="form.kapasitas" label="Kapasitas" required></v-text-field>
                         <v-text-field v-model="form.harga" label="Harga" required></v-text-field>
                         <v-text-field v-model="form.urlPhoto" label="Url Photo"></v-text-field>
