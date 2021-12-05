@@ -11,6 +11,8 @@
                 <v-btn class="mark" to="/aboutus">ABOUT US</v-btn>
 
             </v-app-bar>
+
+            <div class="bg"></div>
             <div class="fullheight pa-5">
                 <router-view></router-view>
             </div>
@@ -18,18 +20,16 @@
     </v-main>
 </template>
 
-<script>
-    export default {
-        name: "Dashboard",
-        data() {
-            return {
-                drawer: true,
-                items: [
-                    {title: "Kamar", to: "/kamar"},
-                    {title: "User", to: "/user"},
-                    {title: "Notes", to: "/note"},
-                ],
-            };
-        },
-    };
-</script>
+<style>
+.bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(https://wallpaperaccess.com/full/1624848.jpg);
+        background-size: cover;
+        transform: scale(1.1);
+        filter: brightness(50%); 
+    }
+</style>

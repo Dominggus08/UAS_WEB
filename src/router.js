@@ -79,11 +79,18 @@ const router = new VueRouter({
         },
 
         {//home
-            path: '/home',
-            name: 'Home',
-            meta: { title: 'Home' },
+            path: '/dashboardhome',
+            name: 'DashboardHome',
+            meta: { title: 'DashboardHome' },
             component: importComponent('Home/DashboardHome'),
             children: [
+                {
+                    path: '/home',
+                    name: 'Home',
+                    meta: { title: 'Home' },
+                    component: importComponent('Home/Home'),
+                },
+
                 {
                     path: '/aboutus',
                     name: 'AboutUs',

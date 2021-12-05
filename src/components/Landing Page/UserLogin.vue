@@ -79,6 +79,8 @@
                         //simpan data id user yang diinput
                         localStorage.setItem('id', response.data.user.id);
                         localStorage.setItem('token', response.data.access_token);
+                        localStorage.setItem('email', response.data.user.email);
+                        localStorage.setItem('name', response.data.user.name);
                         this.error_message = response.data.message;
                         this.color = "green";
                         this.snackbar = true;
