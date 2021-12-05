@@ -86,9 +86,9 @@ const router = new VueRouter({
             children: [
                 {
                     path: '/aboutus',
-                    name: 'Aboutus',
-                    meta: { title: 'Aboutus' },
-                    component: importComponent('Home/Aboutus'),
+                    name: 'AboutUs',
+                    meta: { title: 'AboutUs' },
+                    component: importComponent('Home/AboutUs'),
                 },
 
                 {
