@@ -12,7 +12,7 @@
 
             </v-app-bar>
 
-            <div class="bg"></div>
+            <!-- <div class="bg"></div> -->
             <div class="fullheight pa-5">
                 <router-view></router-view>
             </div>
